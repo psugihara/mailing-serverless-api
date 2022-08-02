@@ -1273,10 +1273,10 @@
   resolved "https://registry.yarnpkg.com/@types/mjml-core/-/mjml-core-4.7.1.tgz#c2627499045b54eccfca38e2b532566fb0689189"
   integrity sha512-k5IRafi93tyZBGF+0BTrcBDvG47OueI+Q7TC4V4UjGQn0AMVvL3Y+S26QF/UHMmMJW5r1hxLyv3StX2/+FatFg==
 
-"@types/mjml-react@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@types/mjml-react/-/mjml-react-2.0.4.tgz#591f5bd20d28e17c5722f3e2188e92a2f89bdffa"
-  integrity sha512-3Vd54OGP0iBxv38Q0HzTp4QnmycqxJZPZ2PLGqbPyPsUzmbv9v2aEGmL/SDuR3bwW6Wln7Y92Bn6MPniwDHAEw==
+"@types/mjml-react@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@types/mjml-react/-/mjml-react-2.0.5.tgz#71f28262b5c51d21fb9fbf4e24ac3de7862a9bc1"
+  integrity sha512-HJl7StlpXgstqFQaU6m8owyysaA7SoVM40A1Y9BQXUU7FouRPlz6oO1z9Vr+LePdvCOB4CDTP6ayUpM5meJXyQ==
   dependencies:
     "@types/react" "*"
 
@@ -3069,10 +3069,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-mailing-core@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/mailing-core/-/mailing-core-0.5.0.tgz#234f14c22b8b1796e8033585517229971d5f872e"
-  integrity sha512-Kr8Rus75AXFY9nBPo0MMFQgwFdoRpx1vXHTJNU0cd3JvCR5eTeVkTISNVYJA2k/0KbRdEMBJ3b3YA+2lOXmpaQ==
+mailing-core@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/mailing-core/-/mailing-core-0.6.2.tgz#840ac95142345e2aae27ec44623279b0f88314f8"
+  integrity sha512-jL0qrLBP/oIiRQOwPbUTJKaPZYRdoiNWO1uweCpdEszaQVCFeugAuohlGMlcmcdkm6fdGHiJ/FYA0JKPNVfR2Q==
   dependencies:
     chalk "^4.1.2"
     fs-extra "^10.1.0"
@@ -3081,10 +3081,10 @@ mailing-core@^0.5.0:
     node-fetch "^2.6.7"
     open "^8.4.0"
 
-mailing@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/mailing/-/mailing-0.6.0.tgz#0589589e9d67824bb63014cf14359882ee9481f6"
-  integrity sha512-y5AB4nMxKyXhPACXVDEIUrPiw9BkXfRRem5jexXSVVMlme0OG5ZEq9lujRY+w9VYag7BumRsTDFiRyH/2wFRAg==
+mailing@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/mailing/-/mailing-0.6.2.tgz#eb6ab7ed596885134074232704ddaf220ec2f8b0"
+  integrity sha512-KXtiMRLQfkFfYVZBvNHNk0U8eKQ8ECTRzzDv438lw7nBLZyd0vvxWgahHRsvbDdUuIAJWV7BS486BhEpAlOVLg==
   dependencies:
     "@babel/core" "^7.18.9"
     "@babel/preset-env" "^7.18.6"
