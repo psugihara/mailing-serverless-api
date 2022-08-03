@@ -1,7 +1,8 @@
 {
   "functions": {
-    "pages/api/*": {
+    "api/*": {
       "includeFiles": "emails/**/*"
     }
-  }
+  },
+  "public": true
 }
