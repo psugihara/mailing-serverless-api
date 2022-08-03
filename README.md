@@ -7,7 +7,7 @@ Here's an example API call:
 
 `templateName` is the name of the template
 
-`props` is a url encoded, stringified JSON object (e.g. `encodeURIComponent(JSON.stringify({ name:"peter" }))`)
+`props` is a url encoded, stringified JSON object like `encodeURIComponent(JSON.stringify({ name:"peter" }))`
 
 
 To run locally:
