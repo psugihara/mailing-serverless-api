@@ -30,6 +30,8 @@ yarn-error.log*
 
 # vercel
 .vercel
+compiled_emails
+public
 
 # typescript
 *.tsbuildinfo

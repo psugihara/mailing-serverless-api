@@ -5,7 +5,7 @@
   "scripts": {
     "start": "vercel dev",
     "deploy": "vercel deploy --prod",
-    "build": "npm i -g typescript && npx swc api -d public"
+    "build": "npx swc api -d public && npx swc emails -d compiled_emails"
   },
   "dependencies": {
     "mailing": "^0.6.2",

@@ -32,7 +32,7 @@ function renderTemplate(
   try {
     const modulePath = resolve(
       process.cwd(),
-      "emails",
+      "compiled_emails",
       templateName.replace(".tsx", ".js")
     );
     Template = require(modulePath).default;
