@@ -5,7 +5,7 @@ import { resolve } from "path";
 import { MjmlError } from "mjml-react";
 
 type Data = {
-  error?: string;
+  error?: string; // api error messages
   html?: string;
   mjmlErrors?: MjmlError[];
 };
@@ -14,20 +14,6 @@ function renderTemplate(
   templateName: string,
   props: { [key: string]: any }
 ): { error?: string; mjmlErrors?: MjmlError[]; html?: string } {
-  // require("ts-node").register({
-  //   compilerOptions: {
-  //     module: "commonjs",
-  //     jsx: "react",
-  //     moduleResolution: "node",
-  //     skipLibCheck: true,
-  //     strict: false,
-  //   },
-  // });
-
-  // require("@babel/register")({
-  //   presets: ["@babel/react", "@babel/preset-env"],
-  // });
-
   let Template;
   try {
     const modulePath = resolve(
