@@ -57,7 +57,7 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
   // parse props
   let parsedProps = {};
   try {
-    parsedProps = JSON.stringify(props);
+    parsedProps = JSON.parse(decodeURIComponent(props as string));
   } catch {
     return res
       .status(403)
