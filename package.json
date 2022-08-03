@@ -29,6 +29,7 @@
     "@types/react-dom": "18.0.6",
     "@vercel/node": "^2.5.3",
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.3"
+    "eslint-config-next": "12.2.3",
+    "vercel": "^27.3.4"
   }
 }
